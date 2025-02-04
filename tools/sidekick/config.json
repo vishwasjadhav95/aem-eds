@@ -60,6 +60,13 @@
         "environments": [ "edit","dev", "preview", "live", "prod" ],
         "url": "https://www.youtube.com/@AEMGeeks",
         "passReferrer": true
+      },
+      {
+        "id": "library",
+        "title": "Library",
+        "environments": ["edit"],
+        "url": "/tools/sidekick/library.html",
+        "includePaths": ["**.docx**"]
       }
     ]
   }
