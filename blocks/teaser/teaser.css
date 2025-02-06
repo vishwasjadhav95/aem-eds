@@ -6,17 +6,17 @@
 .cmp-teaser-image {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .cmp-teaser-image picture img {
     border-radius: 10px;
-    width: 100%; 
+    width: 100%;
     max-width: 500px;
     height: auto;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
     .cmp-teaser-content {
         flex-direction: column;
         gap: 1rem;
@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (601px <= width <= 900px) {
     .cmp-teaser-content {
         gap: 1.5rem;
     }
@@ -42,7 +42,7 @@
     }
 }
 
-@media (min-width: 901px) {
+@media (width >= 901px) {
     .cmp-teaser-content {
         gap: 2rem;
     }
@@ -50,9 +50,5 @@
     .cmp-teaser-image {
         justify-content: center;
         align-items: center;
-    }
-
-    .cmp-teaser-image picture img {
-        max-width: 500px;
     }
 }
