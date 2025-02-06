@@ -9,7 +9,7 @@ export default function decorate(block) {
         col.classList.add(classNames[1]);
       } else if (colIndex === 1) {
         col.classList.add(classNames[2]);
-        }
-      });
+      }
     });
-  }
+  });
+}
