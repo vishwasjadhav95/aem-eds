@@ -1,0 +1,40 @@
+.container.cmp-container.block {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container.cmp-container.block .row-0,
+  .container.cmp-container.block .row-1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container.cmp-container.block .col-0.has-picture {
+    flex: 1;
+  }
+  
+  .container.cmp-container.block .col-1.has-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust padding as needed */
+  }
+  
+  .container.cmp-container.block .col-0.has-picture img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
