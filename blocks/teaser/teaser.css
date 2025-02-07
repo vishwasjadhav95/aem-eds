@@ -16,6 +16,29 @@
     height: auto;
 }
 
+.teaser-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cmp-center-teaser .cmp-teaser-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cmp-center-teaser .cmp-teaser-image,
+.cmp-center-teaser .cmp-teaser-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 @media (width <= 600px) {
     .cmp-teaser-content {
         flex-direction: column;
