@@ -9,6 +9,15 @@ export default function decorate(block) {
         col.classList.add(classNames[1]);
       } else {
         col.classList.add(classNames[2]);
+        const buttonContainers = col.querySelectorAll('.button-container');
+        if (buttonContainers.length > 0) {
+          const newDiv = document.createElement('div');
+          newDiv.classList.add('btn-list');
+          buttonContainers.forEach((buttonContainer) => {
+            newDiv.appendChild(buttonContainer);
+          });
+          col.appendChild(newDiv);
+        }
       }
     });
   });
