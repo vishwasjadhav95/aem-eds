@@ -10,7 +10,6 @@ export default function decorate(block) {
       } else {
         col.classList.add(classNames[2]);
       }
-      });
     });
-  }
-  
+  });
+}
