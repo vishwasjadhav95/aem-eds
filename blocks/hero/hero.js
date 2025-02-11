@@ -1,5 +1,5 @@
 export default function decorate(block) {
-  [...block.children].forEach((row, rowIndex) => {
+  [...block.children].forEach((row) => {
     [...row.children].forEach((col, colIndex) => {
       if (colIndex === 0) {
         col.classList.add('cmp-hero-content');
@@ -40,10 +40,10 @@ export default function decorate(block) {
         const textDiv = document.createElement('div');
         textDiv.classList.add(classNames[3]);
 
-        const secondDivPTags = [...secondDiv.querySelectorAll("p")];
+        const secondDivPTags = [...secondDiv.querySelectorAll('p')];
         secondDivPTags.forEach((pTag) => textDiv.appendChild(pTag));
 
-        secondDiv.innerHTML = "";
+        secondDiv.innerHTML = '';
         secondDiv.appendChild(iconDiv);
         secondDiv.appendChild(textDiv);
 
