@@ -35,7 +35,7 @@ export default function decorate(block) {
 
         const iconDiv = document.createElement('div');
         iconDiv.classList.add(classNames[2]);
-        iconDiv.innerHTML = '<img src="icons/Icon-pay.svg" alt="GFG Logo">';
+        iconDiv.innerHTML = '<img src="/icons/icon-pay.svg" alt="GFG Logo">';
 
         const textDiv = document.createElement('div');
         textDiv.classList.add(classNames[3]);
