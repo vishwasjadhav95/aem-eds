@@ -160,7 +160,6 @@ export default async function decorate(block) {
 
   // Get the nav-tools section
   const navToolsSection = nav.querySelector('#nav .nav-tools');
-  console.log(navToolsSection);
   if (navToolsSection) {
     newDiv.appendChild(navToolsSection);
   }
