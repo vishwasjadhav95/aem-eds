@@ -164,7 +164,6 @@ export default async function decorate(block) {
     newDiv.appendChild(navToolsSection);
   }
 
-
   // hamburger for mobile
   const hamburger = document.createElement('div');
   hamburger.classList.add('nav-hamburger');
