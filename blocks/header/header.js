@@ -123,7 +123,6 @@ export default async function decorate(block) {
   const newDiv = document.createElement('div');
   newDiv.id = 'newDiv';
 
-
   const classes = ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
     const section = nav.children[i];
@@ -156,7 +155,7 @@ export default async function decorate(block) {
   const lastTwoPTags = Array.from(pTags).slice(-2);
   const wrapperDiv = document.createElement('div');
   wrapperDiv.classList.add('brand-info');
-  lastTwoPTags.forEach(p => wrapperDiv.appendChild(p));
+  lastTwoPTags.forEach((p) => wrapperDiv.appendChild(p));
   navBrandSection.appendChild(wrapperDiv);
 
   // Get the nav-tools section
@@ -165,7 +164,6 @@ export default async function decorate(block) {
   if (navToolsSection) {
     newDiv.appendChild(navToolsSection);
   }
-
 
 
   // hamburger for mobile
