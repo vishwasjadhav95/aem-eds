@@ -256,11 +256,11 @@ header nav .nav-sections ul>li>ul>li {
 }
 
 .section.nav-sections .default-content-wrapper ul {
-  color: #777;
+  color: rgb(119, 119, 119);
 }
 
 .section.nav-sections .default-content-wrapper ul>li:last-child {
-  color: #078942;
+  color: rgb(7, 137, 66);
 }
 
 @media (max-width: 899px) {
@@ -268,7 +268,7 @@ header nav .nav-sections ul>li>ul>li {
     display: none;
   }
 
-  #newDiv {
+  #new-div {
     display: none;
   }
 
@@ -279,6 +279,11 @@ header nav .nav-sections ul>li>ul>li {
 }
 
 @media (width >=900px) {
+
+  .nav-wrapper {
+    justify-content: flex-start;
+  }
+
   header nav .nav-sections {
     display: block;
     visibility: visible;

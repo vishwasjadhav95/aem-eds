@@ -121,7 +121,7 @@ export default async function decorate(block) {
 
   // create a new div
   const newDiv = document.createElement('div');
-  newDiv.id = 'newDiv';
+  newDiv.id = 'new-div';
 
   const classes = ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
