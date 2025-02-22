@@ -256,11 +256,11 @@ header nav[aria-expanded='true'] .nav-sections {
 }
 
 .section.nav-sections .default-content-wrapper ul {
-  color: rgba(119, 119, 119, 1);
+  color: rgba(119 119 119 / 100%);
 }
 
 .section.nav-sections .default-content-wrapper ul>li:last-child {
-  color: rgba(7, 137, 66, 1);
+  color: rgba(7 137 66 / 100%);
 }
 
 @media (max-width: 899px) {
@@ -279,7 +279,6 @@ header nav[aria-expanded='true'] .nav-sections {
 }
 
 @media (min-width: 900px) {
-
   .nav-wrapper {
     justify-content: flex-start;
   }
