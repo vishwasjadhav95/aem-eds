@@ -263,7 +263,7 @@ header nav[aria-expanded='true'] .nav-sections {
   color: rgba(7 137 66 / 100%);
 }
 
-@media (max-width: 899px) {
+@media (width <= 899px) {
   .brand-info {
     display: none;
   }
@@ -278,7 +278,7 @@ header nav[aria-expanded='true'] .nav-sections {
 
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .nav-wrapper {
     justify-content: flex-start;
   }
