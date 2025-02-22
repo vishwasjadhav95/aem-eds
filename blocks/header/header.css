@@ -1,4 +1,11 @@
 /* header and nav layout */
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
@@ -151,13 +158,6 @@ header nav .nav-brand img {
   align-items: center;
 }
 
-.nav-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-}
-
 .section.nav-brand {
   display: flex;
   align-items: center;
@@ -183,11 +183,21 @@ header nav .nav-brand img {
   font-weight: bold;
 }
 
-#newDiv {
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+#new-div {
+  box-shadow: 0 -4px 8px rgba(0 0 0 / 10%), 0 4px 8px rgba(0 0 0 / 10%);
   padding: 20px;
   background-color: #fff;
   width: 100%;
+}
+
+header nav .nav-sections ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: var(--body-font-size-s);
+}
+
+header nav .nav-sections ul>li>ul {
+  margin-top: 0;
 }
 
 .section.nav-tools .default-content-wrapper ul {
@@ -195,6 +205,14 @@ header nav .nav-brand img {
   justify-content: flex-start;
   list-style: none;
   padding: 0;
+}
+
+header nav .nav-sections ul>li {
+  font-weight: 500;
+}
+
+header nav .nav-sections ul>li>ul>li {
+  font-weight: 400;
 }
 
 .section.nav-tools .default-content-wrapper ul li {
@@ -237,30 +255,12 @@ header nav[aria-expanded='true'] .nav-sections {
   align-self: start;
 }
 
-header nav .nav-sections ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: var(--body-font-size-s);
-}
-
-header nav .nav-sections ul>li {
-  font-weight: 500;
-}
-
-header nav .nav-sections ul>li>ul {
-  margin-top: 0;
-}
-
-header nav .nav-sections ul>li>ul>li {
-  font-weight: 400;
-}
-
 .section.nav-sections .default-content-wrapper ul {
-  color: rgb(119, 119, 119);
+  color: rgba(119, 119, 119, 1);
 }
 
 .section.nav-sections .default-content-wrapper ul>li:last-child {
-  color: rgb(7, 137, 66);
+  color: rgba(7, 137, 66, 1);
 }
 
 @media (max-width: 899px) {
@@ -278,7 +278,7 @@ header nav .nav-sections ul>li>ul>li {
 
 }
 
-@media (width >=900px) {
+@media (min-width: 900px) {
 
   .nav-wrapper {
     justify-content: flex-start;
