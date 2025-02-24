@@ -273,3 +273,8 @@ main .section.highlight {
   width: 160px;
   height: 172px;
 }
+
+.award-section .default-content-wrapper p:nth-of-type(4) a {
+  color: var(--text-color);
+  font-weight: 600;
+}
