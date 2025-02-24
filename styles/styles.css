@@ -16,7 +16,7 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --link-color: #3b63fb;
+  --link-color: #008000;
   --link-hover-color: #1d3ecf;
 
   /* fonts */
@@ -177,7 +177,7 @@ button {
   max-width: 100%;
   margin: 12px 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
+  border-radius: 5px;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
@@ -197,8 +197,9 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
   cursor: pointer;
+  border-color: #03401f;
+  box-shadow: inset 0 0 0 1px #03401f;
 }
 
 button:disabled,
@@ -258,4 +259,16 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+.award-section .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.award-section picture img {
+  width: 160px;
+  height: 172px;
 }
