@@ -102,6 +102,11 @@
   color: green;
 }
 
+.icon-iconpay {
+    padding-bottom: 30px;
+    width: auto;
+}   
+
 /* Media Queries for responsiveness */
 @media (width <= 600px) {
     .cmp-hero-content {

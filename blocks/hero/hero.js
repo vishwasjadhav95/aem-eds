@@ -9,7 +9,6 @@ export default function decorate(block) {
           'cmphero-icon-container',
           'cmphero-text-container',
         ];
-
         const firstDiv = document.createElement('div');
         firstDiv.classList.add(classNames[0]);
 
@@ -31,18 +30,17 @@ export default function decorate(block) {
             firstDiv.appendChild(pTag);
           }
         });
-        pTags.slice(4).forEach((pTag) => secondDiv.appendChild(pTag));
 
+        const iconSpan = col.querySelector('span.icon.icon-iconpay');
+        iconSpan.remove();
+        pTags.slice(4).forEach((pTag) => secondDiv.appendChild(pTag));
         const iconDiv = document.createElement('div');
         iconDiv.classList.add(classNames[2]);
-        iconDiv.innerHTML = '<img src="/icons/icon-pay.svg" alt="GFG Logo">';
-
+        iconDiv.innerHTML = iconSpan.outerHTML;
         const textDiv = document.createElement('div');
         textDiv.classList.add(classNames[3]);
-
         const secondDivPTags = [...secondDiv.querySelectorAll('p')];
         secondDivPTags.forEach((pTag) => textDiv.appendChild(pTag));
-
         secondDiv.innerHTML = '';
         secondDiv.appendChild(iconDiv);
         secondDiv.appendChild(textDiv);
