@@ -83,6 +83,7 @@ body {
 main{
   padding-top: 90px;
 }
+
 body.appear {
   display: block;
 }
