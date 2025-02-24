@@ -1,5 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <path d="M24.027,15.094A2.343,2.343,0,0,1,25.676,19.1a2.4,2.4,0,0,1-3.37,0,2.276,2.276,0,0,1-.677-1.687,2.222,2.222,0,0,1,.7-1.633A2.451,2.451,0,0,1,24.027,15.094Z"/>
-  <rect x="22.242" y="21.369" width="3.516" height="12.805" rx="1.758" ry="1.758"/>
-  <path d="M24,42A18,18,0,1,1,42,24,18.02,18.02,0,0,1,24,42ZM24,9.512A14.488,14.488,0,1,0,38.488,24,14.5,14.5,0,0,0,24,9.512Z"/>
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-info">
+        
+  <title class="" style="">Icon</title>
+  <g class="" style="">
+    <path d="M24.027,15.094A2.343,2.343,0,0,1,25.676,19.1a2.4,2.4,0,0,1-3.37,0,2.276,2.276,0,0,1-.677-1.687,2.222,2.222,0,0,1,.7-1.633A2.451,2.451,0,0,1,24.027,15.094Z"  class="" style=""/>
+    <rect x="22.242" y="21.369" width="3.516" height="12.805" rx="1.758" ry="1.758"  class="" style=""/>
+    <path d="M24,42A18,18,0,1,1,42,24,18.02,18.02,0,0,1,24,42ZM24,9.512A14.488,14.488,0,1,0,38.488,24,14.5,14.5,0,0,0,24,9.512Z"  class="" style=""/>
+  </g>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-info" x="0" y="0" fill="#1A2227" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-info" x="0" y="48" fill="#FDE83C" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-info" x="0" y="96" fill="#078942" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-info" x="0" y="144" fill="#1A2227" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-info" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-info" x="0" y="240" fill="#00A85A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-info" x="0" y="288" fill="#E60510" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-info" x="0" y="336" fill="#1A2227" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-info" x="0" y="384" fill="#e5e5e5" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-info" x="0" y="432" fill="#FDE83C" />
+    <view id="link" viewBox="0 480 48 48"></view>
+    <use data-variant="link" xlink:href="#Icon-info" x="0" y="480" fill="#065395" />
+    <view id="border" viewBox="0 528 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-info" x="0" y="528" fill="#E2E6EC" />
+    <view id="disabled" viewBox="0 576 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-info" x="0" y="576" fill="#D2D8E1" />
 </svg>
