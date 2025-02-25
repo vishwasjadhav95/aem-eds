@@ -247,7 +247,7 @@ main > .section:first-of-type {
   margin-top: 0;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .award-section .default-content-wrapper {
     margin: auto !important;
   }
