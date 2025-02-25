@@ -293,3 +293,21 @@ main .section.highlight {
 .info-section .default-content-wrapper {
   margin: 0 281px;
 }
+
+.twoparagraph-section .default-content-wrapper {
+  margin: 0 281px;
+}
+
+.twoparagraph-section .button-container {
+  text-align: center;
+}
+
+.twoparagraph-section .button-container .button {
+  display: inline-block;
+}
+
+.twoparagraph-section a {
+  color: #065395;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
