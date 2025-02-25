@@ -275,6 +275,10 @@ main .section.highlight {
   height: 172px;
 }
 
+.info-section a:hover {
+  text-decoration: none;
+ }
+
 .award-section .default-content-wrapper p:nth-of-type(4) a {
   color: var(--text-color);
   font-weight: 600;
@@ -288,8 +292,4 @@ main .section.highlight {
   color: #065395 !important;
   text-decoration: underline;
   text-underline-offset: 5px; 
-}
-
-.info-section a:hover {
- text-decoration: none;
 }
