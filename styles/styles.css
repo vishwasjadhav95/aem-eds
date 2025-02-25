@@ -275,6 +275,12 @@ main .section.highlight {
   height: 172px;
 }
 
+.info-section a {
+  color: #065395 !important;
+  text-decoration: underline;
+  text-underline-offset: 5px; 
+}
+
 .info-section a:hover {
   text-decoration: none;
  }
@@ -286,10 +292,4 @@ main .section.highlight {
 
 .info-section .default-content-wrapper {
   margin: 0 281px;
-}
-
-.info-section a {
-  color: #065395 !important;
-  text-decoration: underline;
-  text-underline-offset: 5px; 
 }
