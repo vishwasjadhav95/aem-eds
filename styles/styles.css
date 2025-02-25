@@ -247,6 +247,36 @@ main > .section:first-of-type {
   margin-top: 0;
 }
 
+@media (max-width: 600px) {
+  .award-section .default-content-wrapper {
+    margin: auto !important;
+  }
+
+  .info-section .default-content-wrapper {
+    margin: auto !important;
+  }
+
+  .twocoloumn-section.columns-container{
+    margin: auto !important;
+  }
+
+  .twoparagraph-section .default-content-wrapper{
+    margin: auto !important;
+  }
+
+  .threecoloumn-section.columns-container{
+    margin: auto !important;
+  }
+
+  .twocoloumn-section .cmp-infocardtagtitle{
+    max-width: 60% !important;
+  }
+
+  .cmp-maininfotwocard{
+    gap: 1rem;
+  }
+}
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
@@ -310,4 +340,9 @@ main .section.highlight {
 
 .twoparagraph-section .button-container .button {
   display: inline-block;
+}
+
+.quotebutton-section {
+  text-align: center;
+  margin: 0 281px;
 }
