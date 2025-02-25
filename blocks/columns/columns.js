@@ -10,6 +10,9 @@ export default function decorate(block) {
       case 1:
         row.classList.add('cmp-maininfotwocard');
         break;
+      default:
+        // No action needed for other cases
+        break;
     }
     [...row.children].forEach((col, colIndex) => {
       switch (true) {
@@ -18,6 +21,9 @@ export default function decorate(block) {
           break;
         case (rowIndex === 1):
           col.classList.add('cmp-infotwocard');
+          break;
+        default:
+          // No action needed for other cases
           break;
       }
       const pic = col.querySelector('picture');
