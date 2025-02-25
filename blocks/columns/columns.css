@@ -19,9 +19,43 @@
   display: block;
 }
 
+.twocoloumn-section.columns-container {
+  margin: 0 281px;
+}
+
+.cmp-infotwocard {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #e2e6ec;
+  border-radius: 8px;
+}
+
+.cmp-infotwocard .button-container {
+  width: 100%;
+}
+
+.cmp-infotwocard .button-container .button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  box-sizing: border-box; 
+}
+
+.cmp-infotwocard p:last-of-type .button {
+  background-color: #fff; 
+  color: green; 
+  border: 1px solid green;
+}
+
+.cmp-infotwocard p:last-of-type .button:hover {
+  background-color: #c6fcdf; 
+  border-color: #044f26;
+}
+
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
     flex-direction: unset;
     gap: 24px;
   }
