@@ -1,0 +1,41 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-three">
+        
+<path d="M30.764 21.4401C30.956 21.4641 31.112 21.4761 31.232 21.4761C31.376 21.4761 31.496 21.4761 31.592 21.4761C32.48 21.4761 33.2 21.2121 33.752 20.6841C34.304 20.1561 34.58 19.4721 34.58 18.6321C34.58 17.8161 34.316 17.1561 33.788 16.6521C33.284 16.1481 32.624 15.8961 31.808 15.8961C30.944 15.8961 30.248 16.1841 29.72 16.7601C29.192 17.3361 28.928 18.0801 28.928 18.9921H22.412C22.58 17.5761 22.928 16.3161 23.456 15.2121C24.008 14.1081 24.704 13.1841 25.544 12.4401C26.384 11.6721 27.368 11.0961 28.496 10.7121C29.624 10.3041 30.872 10.1001 32.24 10.1001C33.584 10.1001 34.796 10.2921 35.876 10.6761C36.98 11.0361 37.916 11.5641 38.684 12.2601C39.476 12.9321 40.076 13.7601 40.484 14.7441C40.916 15.7041 41.132 16.7841 41.132 17.9841C41.132 19.2801 40.88 20.3481 40.376 21.1881C39.896 22.0041 39.2 22.7121 38.288 23.3121C39.68 23.7441 40.76 24.5241 41.528 25.6521C42.32 26.7561 42.716 28.1241 42.716 29.7561C42.716 31.1001 42.452 32.3241 41.924 33.4281C41.396 34.5321 40.652 35.4801 39.692 36.2721C38.756 37.0641 37.628 37.6761 36.308 38.1081C35.012 38.5401 33.584 38.7561 32.024 38.7561C29.936 38.7561 28.052 38.3481 26.372 37.5321C24.692 36.7161 23.348 35.4201 22.34 33.6441C21.884 32.8521 21.572 32.0601 21.404 31.2681C21.26 30.4761 21.188 29.6721 21.188 28.8561H28.172C28.22 30.1281 28.592 31.1001 29.288 31.7721C29.984 32.4201 30.92 32.7441 32.096 32.7441C33.344 32.7441 34.256 32.4081 34.832 31.7361C35.408 31.0641 35.696 30.2361 35.696 29.2521C35.696 28.0761 35.348 27.1881 34.652 26.5881C33.956 25.9881 33.128 25.6881 32.168 25.6881C31.928 25.6881 31.7 25.7121 31.484 25.7601C31.268 25.7841 31.028 25.8201 30.764 25.8681V21.4401Z"  class="" style=""/>
+<path d="M10.9238 22.6798L10.0352 25.1603H12.5352L13.4238 22.6798H10.9238ZM11.1777 16.7423H13.043L11.5391 21.0001H13.9805L15.5039 16.7423H17.3594L15.8555 21.0001H18.6973L18.1211 22.6798H15.2598L14.3809 25.1407H17.3984L16.8027 26.8204H13.8047L12.2812 31.0587H10.416L11.9395 26.8204H9.47852L7.93555 31.0587H6.08008L7.60352 26.8204H4.68359L5.2793 25.1407H8.17969L9.05859 22.6798H5.98242L6.57812 21.0001H9.66406L11.1777 16.7423Z"  class="" style=""/>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-three" x="0" y="0" fill="#1A2227" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-three" x="0" y="48" fill="#FDE83C" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-three" x="0" y="96" fill="#078942" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-three" x="0" y="144" fill="#1A2227" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-three" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-three" x="0" y="240" fill="#00A85A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-three" x="0" y="288" fill="#E60510" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-three" x="0" y="336" fill="#1A2227" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-three" x="0" y="384" fill="#e5e5e5" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-three" x="0" y="432" fill="#FDE83C" />
+    <view id="link" viewBox="0 480 48 48"></view>
+    <use data-variant="link" xlink:href="#Icon-three" x="0" y="480" fill="#065395" />
+    <view id="border" viewBox="0 528 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-three" x="0" y="528" fill="#E2E6EC" />
+    <view id="disabled" viewBox="0 576 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-three" x="0" y="576" fill="#D2D8E1" />
+</svg>
