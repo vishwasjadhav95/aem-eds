@@ -1,0 +1,41 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-tick">
+        
+  <title class="" style="">Icon</title>
+  <path d="M25.383,34.313L41.728,18.138l-4.859-4.845L20.525,29.467l-9.5-9.181L6.165,25.132l9.5,9.182,4.859,4.846Z"  class="" style=""/>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-tick" x="0" y="0" fill="#1A2227" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-tick" x="0" y="48" fill="#FDE83C" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-tick" x="0" y="96" fill="#078942" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-tick" x="0" y="144" fill="#1A2227" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-tick" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-tick" x="0" y="240" fill="#00A85A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-tick" x="0" y="288" fill="#E60510" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-tick" x="0" y="336" fill="#1A2227" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-tick" x="0" y="384" fill="#e5e5e5" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-tick" x="0" y="432" fill="#FDE83C" />
+    <view id="link" viewBox="0 480 48 48"></view>
+    <use data-variant="link" xlink:href="#Icon-tick" x="0" y="480" fill="#065395" />
+    <view id="border" viewBox="0 528 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-tick" x="0" y="528" fill="#E2E6EC" />
+    <view id="disabled" viewBox="0 576 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-tick" x="0" y="576" fill="#D2D8E1" />
+</svg>

@@ -1,0 +1,71 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-mobile">
+        
+<g class="" style="">
+	<g class="" style="">
+		<g class="" style="">
+			<path  d="M31.72,6.062H16.63c-1.442,0-2.61,1.174-2.61,2.61v30.639c0,1.442,1.168,2.61,2.61,2.61H31.72
+				c1.442,0,2.61-1.168,2.61-2.61V8.673C34.33,7.237,33.162,6.062,31.72,6.062L31.72,6.062z M20.453,7.652h7.445
+				c0.191,0,0.345,0.281,0.345,0.626c0,0.351-0.154,0.632-0.345,0.632h-7.445c-0.193,0-0.34-0.281-0.34-0.632
+				C20.113,7.933,20.26,7.652,20.453,7.652L20.453,7.652z M24.178,39.343c-0.92,0-1.673-0.746-1.673-1.664
+				c0-0.92,0.753-1.666,1.673-1.666c0.911,0,1.658,0.746,1.658,1.666C25.836,38.596,25.09,39.343,24.178,39.343L24.178,39.343z
+				 M32.37,33.632H15.979v-23.16H32.37V33.632z M32.37,33.632" class="" style=""/>
+		</g>
+	</g>
+	<g class="" style="">
+		<g class="" style="">
+			<path  d="M23.272,20.466c0,0.31-0.254,0.564-0.564,0.564h-4.066c-0.31,0-0.564-0.254-0.564-0.564V16.4
+				c0-0.31,0.254-0.564,0.564-0.564h4.066c0.31,0,0.564,0.254,0.564,0.564V20.466z" class="" style=""/>
+		</g>
+		<g class="" style="">
+			<path  d="M30.441,20.466c0,0.31-0.254,0.564-0.564,0.564h-4.066c-0.31,0-0.564-0.254-0.564-0.564V16.4
+				c0-0.31,0.254-0.564,0.564-0.564h4.066c0.31,0,0.564,0.254,0.564,0.564V20.466z" class="" style=""/>
+		</g>
+	</g>
+	<g class="" style="">
+		<g class="" style="">
+			<path  d="M23.272,27.566c0,0.31-0.254,0.564-0.564,0.564h-4.066c-0.31,0-0.564-0.254-0.564-0.564V23.5
+				c0-0.31,0.254-0.564,0.564-0.564h4.066c0.31,0,0.564,0.254,0.564,0.564V27.566z" class="" style=""/>
+		</g>
+		<g class="" style="">
+			<path  d="M30.441,27.566c0,0.31-0.254,0.564-0.564,0.564h-4.066c-0.31,0-0.564-0.254-0.564-0.564V23.5
+				c0-0.31,0.254-0.564,0.564-0.564h4.066c0.31,0,0.564,0.254,0.564,0.564V27.566z" class="" style=""/>
+		</g>
+	</g>
+</g>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-mobile" x="0" y="0" fill="#1A2227" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-mobile" x="0" y="48" fill="#FDE83C" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-mobile" x="0" y="96" fill="#078942" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-mobile" x="0" y="144" fill="#1A2227" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-mobile" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-mobile" x="0" y="240" fill="#00A85A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-mobile" x="0" y="288" fill="#E60510" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-mobile" x="0" y="336" fill="#1A2227" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-mobile" x="0" y="384" fill="#e5e5e5" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-mobile" x="0" y="432" fill="#FDE83C" />
+    <view id="link" viewBox="0 480 48 48"></view>
+    <use data-variant="link" xlink:href="#Icon-mobile" x="0" y="480" fill="#065395" />
+    <view id="border" viewBox="0 528 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-mobile" x="0" y="528" fill="#E2E6EC" />
+    <view id="disabled" viewBox="0 576 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-mobile" x="0" y="576" fill="#D2D8E1" />
+</svg>

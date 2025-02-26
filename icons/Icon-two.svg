@@ -1,0 +1,41 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-two">
+        
+<path d="M42.86 38.0002H21.008L27.74 31.0162C29.516 29.1682 30.908 27.6082 31.916 26.3362C32.924 25.0402 33.668 23.9482 34.148 23.0602C34.652 22.1722 34.964 21.4522 35.084 20.9002C35.204 20.3482 35.264 19.8802 35.264 19.4962C35.264 19.0882 35.192 18.6922 35.048 18.3082C34.928 17.9242 34.736 17.5882 34.472 17.3002C34.208 16.9882 33.884 16.7482 33.5 16.5802C33.14 16.3882 32.708 16.2922 32.204 16.2922C31.244 16.2922 30.488 16.6042 29.936 17.2282C29.408 17.8522 29.144 18.6322 29.144 19.5682C29.144 19.8322 29.18 20.2162 29.252 20.7202H21.548C21.548 19.1362 21.8 17.6962 22.304 16.4002C22.832 15.1042 23.564 13.9882 24.5 13.0522C25.436 12.1162 26.54 11.3962 27.812 10.8922C29.108 10.3882 30.524 10.1362 32.06 10.1362C33.572 10.1362 34.964 10.3762 36.236 10.8562C37.532 11.3362 38.648 12.0082 39.584 12.8722C40.52 13.7362 41.252 14.7682 41.78 15.9682C42.308 17.1442 42.572 18.4282 42.572 19.8202C42.572 21.3082 42.248 22.6882 41.6 23.9602C40.976 25.2082 39.968 26.4922 38.576 27.8122L34.076 32.0242H42.86V38.0002Z"  class="" style=""/>
+<path d="M10.9238 22.6799L10.0352 25.1604H12.5352L13.4238 22.6799H10.9238ZM11.1777 16.7424H13.043L11.5391 21.0002H13.9805L15.5039 16.7424H17.3594L15.8555 21.0002H18.6973L18.1211 22.6799H15.2598L14.3809 25.1409H17.3984L16.8027 26.8205H13.8047L12.2812 31.0588H10.416L11.9395 26.8205H9.47852L7.93555 31.0588H6.08008L7.60352 26.8205H4.68359L5.2793 25.1409H8.17969L9.05859 22.6799H5.98242L6.57812 21.0002H9.66406L11.1777 16.7424Z"  class="" style=""/>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-two" x="0" y="0" fill="#1A2227" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-two" x="0" y="48" fill="#FDE83C" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-two" x="0" y="96" fill="#078942" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-two" x="0" y="144" fill="#1A2227" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-two" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-two" x="0" y="240" fill="#00A85A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-two" x="0" y="288" fill="#E60510" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-two" x="0" y="336" fill="#1A2227" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-two" x="0" y="384" fill="#e5e5e5" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-two" x="0" y="432" fill="#FDE83C" />
+    <view id="link" viewBox="0 480 48 48"></view>
+    <use data-variant="link" xlink:href="#Icon-two" x="0" y="480" fill="#065395" />
+    <view id="border" viewBox="0 528 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-two" x="0" y="528" fill="#E2E6EC" />
+    <view id="disabled" viewBox="0 576 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-two" x="0" y="576" fill="#D2D8E1" />
+</svg>
