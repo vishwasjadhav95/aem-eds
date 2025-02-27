@@ -43,7 +43,7 @@ export default function decorate(block) {
       if (answer && answer.classList.contains('cmp-accordionanswer')) {
         answer.classList.toggle('open');
         question.classList.toggle('open');
-        answer.style.display= answer.style.display === 'none' || answer.style.display === '' ? 'block' : 'none';
+        answer.style.display = answer.style.display === 'none' || answer.style.display === '' ? 'block' : 'none';
       }
     });
   });
