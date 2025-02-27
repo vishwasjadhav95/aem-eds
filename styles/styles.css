@@ -346,3 +346,7 @@ main .section.highlight {
   text-align: center;
   margin: 0 281px;
 }
+
+.accordion-section.accordion-container {
+  margin: 0 281px;
+}
