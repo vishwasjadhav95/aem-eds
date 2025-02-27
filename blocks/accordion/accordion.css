@@ -31,7 +31,6 @@
     display: flex;
     align-items: center;
     margin: 0;
-    /* Remove default margin */
     color: green;
     text-align: left;
 }
@@ -52,14 +51,19 @@ h2#icon-faq-frequently-asked-questions {
     display: flex;
     align-items: center;
     margin: 0;
-    /* Remove default margin */
 }
 
 h2#icon-faq-frequently-asked-questions .icon {
     display: inline-flex;
     align-items: center;
     margin-right: 8px;
-    /* Adjust spacing between icon and text */
+}
+
+.cmp-accordionquestion .icon img {
+    filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(90deg)
+        brightness(90%) contrast(90%);
+    width: 16px;
+    height: 16px;
 }
 
 h2#icon-faq-frequently-asked-questions .icon img {
@@ -69,22 +73,10 @@ h2#icon-faq-frequently-asked-questions .icon img {
         brightness(90%) contrast(90%);
 }
 
-.cmp-accordionquestion .icon img {
-    filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(90deg)
-        brightness(90%) contrast(90%);
-    width: 16px;
-    /* Adjust the size of the icon if needed */
-    height: 16px;
-    /* Adjust the size of the icon if needed */
-}
-
 .cmp-accordionanswer {
     display: none;
-    /* Ensure it is hidden by default */
     border-top: 1px solid black;
-    /* Add border above */
     padding-top: 10px;
-    /* Add padding to separate the border from the content */
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
@@ -92,18 +84,15 @@ h2#icon-faq-frequently-asked-questions .icon img {
 
 .cmp-accordionanswer.open {
     display: block;
-    /* Show when the class 'open' is added */
     border-top: 1px solid black;
-    /* Add border-top when open */
     border-radius: 0 0 4px 4px;
-    padding: 7.5px 14px 0 14px;
+    padding: 7.5px 14px 0;
 }
 
 .cmp-accordionquestion.open {
     border-bottom: none;
-    /* Remove border-bottom when open */
     border-radius: 4px 4px 0 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 @media (width <=600px) {
