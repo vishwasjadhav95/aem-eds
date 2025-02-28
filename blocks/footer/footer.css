@@ -1,20 +1,173 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
-}
-
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+    background-color: var(--light-color);
+    font-size: var(--body-font-size-xs);
 }
 
 footer .footer p {
-  margin: 0;
+    margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+/* New class to be added */
+.section.cmp-upperheader-section .cmp-upperheader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    font-size: 17px;
+    background-color: #d0fde4; /* Apply background color */
+    border-top: 3px solid #098942; /* Add top border */
+}
+
+.default-content-wrapper.cmp-lowerheader {
+    color: #535353;
+}
+
+.section.cmp-upperheader-section .cmp-upperheader ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.section.cmp-upperheader-section .cmp-upperheader ul li a {
+    flex: 1; /* Equal width for list items */
+    color: black; /* Set text color to black */
+}
+
+.section.cmp-upperheader-section .cmp-upperheader ul li {
+    padding-bottom: 6px;
+}
+
+.section.cmp-upperheader-section .cmp-upperheader ul li:first-child {
+    font-weight: bold; /* Make the first list item bold */
+    padding-bottom: 10px;
+}
+
+/* Styles for cmp-middleheader */
+.section.cmp-middleheader-section .cmp-middleheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 28px; /* Add padding from left and right */
+    gap: 32rem; /* Add gap between elements */
+}
+
+.section.cmp-middleheader-section .footer-button {
+    flex: 0 0 auto; /* Ensure it doesn't grow or shrink */
+}
+
+.section.cmp-middleheader-section .footer-brand-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* Add gap between elements */
+    margin-top: 12px;
+}
+
+/* Additional styles for the section */
+.section.cmp-middleheader-section {
+    padding: 20px; /* Add padding */
+    background-color: white; /* Set background color to white */
+    border-top: 4px solid #e2e6ec; /* Add top border */
+}
+
+.default-content-wrapper.cmp-lowerheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-lowerheader-title,
+.footer-lowerheader-details,
+.footer-lowerheader-links {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-lowerheader-details {
+    text-align: left;
+}
+
+.footer-lowerheader-details a {
+    color: #065395;
+}
+
+.footer-lowerheader-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.footer-lowerheader-title::before,
+.footer-lowerheader-title::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #e2e6ec;
+    margin: 0 10px;
+}
+
+.footer-lowerheader-links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    color: #535353 !important;
+}
+
+.footer-lowerheader-links li {
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.footer-lowerheader-links a {
+    text-decoration: none; /* Optional: Remove underline from links */
+}
+
+.cmp-lowerheader-section {
+    margin-left: 281px;
+    margin-right: 281px;
+}
+
+.default-content-wrapper.cmp-lowerheader > div {
+    padding-bottom: 20px; /* Adjust the padding value as needed */
+}
+
+.footer-lowerheader-links {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for mobile and tablet view */
+@media (max-width: 900px) {
+    .cmp-lowerheader-section {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .default-content-wrapper.cmp-upperheader {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .default-content-wrapper.cmp-upperheader ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .default-content-wrapper.cmp-middleheader {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem !important;
+    }
+
+    .default-content-wrapper.cmp-middleheader > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-lowerheader-links li {
+        margin: 0px 6px;
+    }
 }
