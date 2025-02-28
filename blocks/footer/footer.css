@@ -18,18 +18,34 @@ footer .footer p {
     border-top: 3px solid #098942; /* Add top border */
 }
 
-.default-content-wrapper.cmp-lowerheader {
-    color: #535353;
+.footer-lowerheader-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  color: #535353 !important;
 }
-
 .section.cmp-upperheader-section .cmp-upperheader ul {
     list-style: none; /* Remove bullet points */
     padding: 0; /* Remove default padding */
 }
 
+.footer-lowerheader-details a {
+  color: #065395;
+}
+
+.footer-lowerheader-links a {
+  text-decoration: none; /* Optional: Remove underline from links */
+}
+
 .section.cmp-upperheader-section .cmp-upperheader ul li a {
     flex: 1; /* Equal width for list items */
     color: black; /* Set text color to black */
+}
+
+.footer-lowerheader-links li {
+  margin: 0 10px; /* Adjust the margin as needed */
 }
 
 .section.cmp-upperheader-section .cmp-upperheader ul li {
@@ -74,6 +90,7 @@ footer .footer p {
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: #535353;
 }
 
 .footer-lowerheader-title,
@@ -85,10 +102,6 @@ footer .footer p {
 
 .footer-lowerheader-details {
     text-align: left;
-}
-
-.footer-lowerheader-details a {
-    color: #065395;
 }
 
 .footer-lowerheader-title {
@@ -108,23 +121,6 @@ footer .footer p {
     margin: 0 10px;
 }
 
-.footer-lowerheader-links ul {
-    display: flex;
-    justify-content: center;
-    list-style: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
-    color: #535353 !important;
-}
-
-.footer-lowerheader-links li {
-    margin: 0 10px; /* Adjust the margin as needed */
-}
-
-.footer-lowerheader-links a {
-    text-decoration: none; /* Optional: Remove underline from links */
-}
-
 .cmp-lowerheader-section {
     margin-left: 281px;
     margin-right: 281px;
@@ -139,7 +135,7 @@ footer .footer p {
 }
 
 /* Styles for mobile and tablet view */
-@media (max-width: 900px) {
+@media (width <= 900px) {
     .cmp-lowerheader-section {
         margin-left: 0;
         margin-right: 0;
@@ -168,6 +164,6 @@ footer .footer p {
     }
 
     .footer-lowerheader-links li {
-        margin: 0px 6px;
+        margin: 0 6px;
     }
 }
