@@ -1,0 +1,113 @@
+.cmp-accordionquestion {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.cmp-accordionanswer a {
+    color: #065395;
+}
+
+.cmp-accordionquestion:hover {
+    background-color: #d0fde4;
+    cursor: pointer;
+}
+
+.cmp-accordionwrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.cmp-accordionwrapper > .cmp-accordioninfo {
+    width: calc(50% - 10px);
+}
+
+.cmp-accordionquestion p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: green;
+    text-align: left;
+}
+
+.cmp-accordionquestion .icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.cmp-accordiontitle .icon {
+    width: 72px;
+    height: 72px;
+    filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(90deg)
+        brightness(90%) contrast(90%);
+}
+
+h2#icon-faq-frequently-asked-questions {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+h2#icon-faq-frequently-asked-questions .icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.cmp-accordionquestion .icon img {
+    filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(90deg)
+        brightness(90%) contrast(90%);
+    width: 16px;
+    height: 16px;
+}
+
+h2#icon-faq-frequently-asked-questions .icon img {
+    width: 72px;
+    height: 72px;
+    filter: invert(33%) sepia(100%) saturate(500%) hue-rotate(90deg)
+        brightness(90%) contrast(90%);
+}
+
+.cmp-accordionanswer {
+    display: none;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.cmp-accordionanswer.open {
+    display: block;
+    border-top: 1px solid black;
+    border-radius: 0 0 4px 4px;
+    padding: 7.5px 14px 0;
+}
+
+.cmp-accordionquestion.open {
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+}
+
+@media (width <=600px) {
+    .accordion-section.accordion-container {
+        margin: auto !important;
+    }
+
+    .cmp-accordionwrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .cmp-accordionwrapper > .cmp-accordioninfo {
+        width: 100%;
+    }
+}

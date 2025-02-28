@@ -1,0 +1,41 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="48"
+height="48"
+viewBox="0 0 48 48">
+  <defs>
+    <symbol id="Icon-faq">
+        
+  <title class="" style="">Icon</title>
+  <path d="M32.228,18.463a2.325,2.325,0,0,0-1.812.823,3.267,3.267,0,0,0-.007,4.11,2.342,2.342,0,0,0,1.833.817,1.438,1.438,0,0,0,.315-0.036,2.378,2.378,0,0,0,.349-0.109l-1.374-1.773h2.3l0.5,0.671a2.741,2.741,0,0,0,.325-0.727,3.045,3.045,0,0,0,.113-0.84,3.093,3.093,0,0,0-.72-2.108A2.314,2.314,0,0,0,32.228,18.463Zm-10.279.4q-0.08-.325-0.206-0.837-0.086.358-.169,0.684t-0.169.624L20.429,22.54h2.636l-0.989-3.207Q22.029,19.187,21.949,18.861ZM36.869,9.974H11.157a5.093,5.093,0,0,0-5.07,5.115V27.365a5.093,5.093,0,0,0,5.07,5.115H16.44l-0.214,7.161,12.167-7.161h8.476a5.092,5.092,0,0,0,5.069-5.115V15.089A5.092,5.092,0,0,0,36.869,9.974ZM16.657,18.582H13.284v1.686h3.181v2.085H13.284v3.818H10.7v-9.72h5.956v2.131Zm7.457,7.589-0.491-1.74H19.858l-0.5,1.74H16.717l3.353-9.72h3.32l3.36,9.72H24.114Zm11.255,1.142-1.036-1.361a3.559,3.559,0,0,1-.936.339,5.308,5.308,0,0,1-1.129.113,5.717,5.717,0,0,1-1.59-.219,5.185,5.185,0,0,1-1.418-.651,4.934,4.934,0,0,1-1.637-1.816,5.039,5.039,0,0,1-.594-2.4,4.96,4.96,0,0,1,.392-1.959,5.014,5.014,0,0,1,1.135-1.647,5.1,5.1,0,0,1,1.673-1.1,5.406,5.406,0,0,1,3.991,0,5.175,5.175,0,0,1,1.68,1.1,5.067,5.067,0,0,1,1.129,1.647,4.96,4.96,0,0,1,.392,1.959,5.069,5.069,0,0,1-.4,2.019,4.638,4.638,0,0,1-1.169,1.627l1.773,2.35H35.369Z"  class="" style=""/>
+
+    </symbol>
+  </defs>
+    <view id="default" viewBox="0 0 48 48"></view>
+    <use data-variant="default" xlink:href="#Icon-faq" x="0" y="0" fill="#1A2227" />
+    <view id="primary" viewBox="0 48 48 48"></view>
+    <use data-variant="primary" xlink:href="#Icon-faq" x="0" y="48" fill="#FDE83C" />
+    <view id="secondary" viewBox="0 96 48 48"></view>
+    <use data-variant="secondary" xlink:href="#Icon-faq" x="0" y="96" fill="#078942" />
+    <view id="dark" viewBox="0 144 48 48"></view>
+    <use data-variant="dark" xlink:href="#Icon-faq" x="0" y="144" fill="#1A2227" />
+    <view id="light" viewBox="0 192 48 48"></view>
+    <use data-variant="light" xlink:href="#Icon-faq" x="0" y="192" fill="#FFFFFF" />
+    <view id="correct" viewBox="0 240 48 48"></view>
+    <use data-variant="correct" xlink:href="#Icon-faq" x="0" y="240" fill="#00A85A" />
+    <view id="error" viewBox="0 288 48 48"></view>
+    <use data-variant="error" xlink:href="#Icon-faq" x="0" y="288" fill="#E60510" />
+    <view id="text" viewBox="0 336 48 48"></view>
+    <use data-variant="text" xlink:href="#Icon-faq" x="0" y="336" fill="#1A2227" />
+    <view id="neutral" viewBox="0 384 48 48"></view>
+    <use data-variant="neutral" xlink:href="#Icon-faq" x="0" y="384" fill="#e5e5e5" />
+    <view id="highlight" viewBox="0 432 48 48"></view>
+    <use data-variant="highlight" xlink:href="#Icon-faq" x="0" y="432" fill="#FDE83C" />
+    <view id="link" viewBox="0 480 48 48"></view>
+    <use data-variant="link" xlink:href="#Icon-faq" x="0" y="480" fill="#065395" />
+    <view id="border" viewBox="0 528 48 48"></view>
+    <use data-variant="border" xlink:href="#Icon-faq" x="0" y="528" fill="#E2E6EC" />
+    <view id="disabled" viewBox="0 576 48 48"></view>
+    <use data-variant="disabled" xlink:href="#Icon-faq" x="0" y="576" fill="#D2D8E1" />
+</svg>
